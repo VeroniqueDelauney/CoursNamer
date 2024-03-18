@@ -1,0 +1,65 @@
+/*------------------
+	Version 1.3.0
+--------------------*/
+.quotes-llama-icons-author,
+.quotes-llama-icons-source {
+	padding: 5px;
+	width: auto;
+}
+
+.quotes-llama-icons-author ul,
+.quotes-llama-icons-source ul {
+	list-style-type: none;
+	padding: 5px;
+	margin: -1px 0 0;
+	display: none;
+	border: 1px solid #000;
+	overflow: auto;
+	height: 250px;
+}
+
+.quotes-llama-icons-author li,
+.quotes-llama-icons-source li {
+	display: inline-block;
+}
+
+.quotes-llama-icons-author a,
+.quotes-llama-icons-source a {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+	border: 1px solid;
+	padding: 5px;
+	color: #777;
+	position: relative;
+}
+
+.quotes-llama-icons-author-arr,
+.quotes-llama-icons-source-arr {
+	float: right;
+}
+
+.quotes-llama-icons-author .quotes-llama-icons-author-hidden,
+.quotes-llama-icons-source .quotes-llama-icons-source-hidden {
+	display: none;
+}
+
+.quotes-llama-icons-author label,
+.quotes-llama-icons-source label {
+	display: inline-block;
+	padding: 4px;
+	cursor: pointer;
+	color: #777;
+	border: 1px solid transparent;
+}
+
+.quotes-llama-icons-author label:hover,
+.quotes-llama-icons-source label:hover {
+	color: #000000;
+}
+
+.quotes-llama-icons-author img,
+.quotes-llama-icons-source img {
+	width: 16px;
+	height: 16px;
+}

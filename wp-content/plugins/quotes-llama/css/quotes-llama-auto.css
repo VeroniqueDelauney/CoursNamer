@@ -1,0 +1,41 @@
+.quotes-llama-auto {
+	display: inline-block;
+	width: 100%;
+}
+
+.quotes-llama-auto-quote {
+	display: block;
+	padding: 5px;
+}
+
+.quotes-llama-auto img {
+	max-width: 150px;
+	max-height: 150px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: 3px 5px 6px 0px rgba(0,0,0,0.45);
+	float: left;
+}
+
+.quotes-llama-auto-author {
+	display: block;
+	text-align: right;
+	font-style: italic;
+}
+
+.quotes-llama-auto-source {
+	font-size: small;
+	font-style: italic;
+}
+
+.quotes-llama-auto-countdown {
+	float: right;
+	top: 3px;
+	right: 5px;
+	font-size: small;
+}
+
+.quotes-llama-auto-reenable {
+	cursor: pointer;
+}

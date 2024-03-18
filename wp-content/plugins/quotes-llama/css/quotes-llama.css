@@ -1,0 +1,47 @@
+/*---------------------
+		Icons
+-----------------------*/
+.quotes-llama-icons img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 8px;
+	margin-bottom: 1px;
+	text-align: right;
+	float: none;
+	display: inline-block;
+}
+
+.dashicons {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-bottom: 1px;
+}
+
+/*----------------------------------
+		more/less links
+------------------------------------*/
+a.quotes-llama-count-morelink,
+a.quotes-llama-widget-morelink,
+a.quotes-llama-page-morelink,
+a.quotes-llama-widget-static-morelink,
+a.quotes-llama-auto-morelink,
+a.quotes-llama-gallery-morelink,
+a.quotes-llama-auto-refresh-morelink,
+a.quotes-llama-widget-next-morelink {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.quotes-llama-count-morecontent span,
+.quotes-llama-widget-morecontent span,
+.quotes-llama-page-morecontent span,
+.quotes-llama-widget-static-morecontent span,
+.quotes-llama-auto-morecontent span,
+.quotes-llama-gallery-morecontent span,
+.quotes-llama-auto-refresh-morecontent span,
+.quotes-llama-widget-next-morecontent span {
+	display: none;
+}

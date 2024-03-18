@@ -1,0 +1,142 @@
+.quotes-llama-page-quote {
+	float: right;
+	width: 68%;
+	text-align: right;
+	min-height: 1px;
+	margin-top: 20px;
+}
+
+.quotes-llama-page-quote img  {
+	max-width: 150px;
+	max-height: 150px;
+	object-fit: cover;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	box-shadow: 5px 10px 12px 0px rgba(0,0,0,0.75);
+	float: left;
+}
+
+.quotes-llama-page-container {
+	width: 100%;
+}
+
+.quotes-llama-page-container,
+.quotes-llama-page-fixed-anchor {
+	margin: 0;
+	display: block;
+	top: -35px;
+}
+
+.quotes-llama-page-sidebarleft {
+	float: left;
+	width: 28%;
+	text-align: left;
+	padding-left: 10px;
+	min-height: 1px;
+}
+
+.quotes-llama-page-sidebarleft li {
+	list-style-type: none;
+}
+
+.quotes-llama-page-title,
+.quotes-llama-page-navdiv {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.quotes-llama-page-title a button {
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+
+.quotes-llama-page-previous,
+.quotes-llama-page-next {
+	text-align: center;
+}
+
+.quotes-llama-page-letter {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.quotes-llama-page-link {
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+.quotes-llama-page-quotes-form {
+	float: none;
+	padding: 5px 10px 5px 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.quotes-llama-page-quotesearch {
+	max-width: 250px;
+}
+
+.quotes-llama-page-quotes-form select {
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.quotes-llama-page-source {
+	display: block;
+	text-align: right;
+	font-size: small;
+	font-style: italic;
+}
+
+.quotes-llama-page-author-back {
+	float: right;
+	padding-left: 3px;
+	text-decoration:none;
+}
+
+.quotes-llama-page-quotebox {
+	padding: 5px;
+}
+
+.quotes-llama-inline {
+	display: inline-block;
+}
+
+#quotes-llama-page-status-info {
+	float: left;
+	padding-left: 10px;
+}
+
+/*---------------------------------
+			RESPONSIVE
+----------------------------------*/
+@media only screen and (max-width: 800px) {
+	.quotes-llama-page-title a button {
+		margin: 1px;
+		padding: 1px;
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	.quotes-llama-page-container {
+		margin-top: 40px;
+	}
+
+	.quotes-llama-page-container img {
+		max-width: 50px;
+		max-height: 50px;
+	}
+
+	.quotes-llama-page-author-back {
+		display: none;
+	}
+}

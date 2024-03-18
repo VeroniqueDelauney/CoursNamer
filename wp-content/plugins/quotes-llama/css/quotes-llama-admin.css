@@ -1,0 +1,137 @@
+.wp-list-table tr:hover {
+	background-color: #dcdcde;
+	border-left: 1px solid;
+}
+
+.quotes-llama-admin-form th {
+	padding-left: 10px;
+}
+
+.quotes-llama-admin-form h2 {
+	background-color: #dcdcde;
+	padding: 10px;
+}
+
+.quotes-llama-admin-table,
+.quotes-llama-inline,
+.quotes-llama-admin-form fieldset {
+	width: auto;
+}
+
+.quotes-llama-image-alt {
+	white-space:pre-wrap;
+}
+
+.column-cb {
+	width: 3%;
+	min-width: 13px;
+	max-width: 3%;
+}
+
+.column-id {
+	width: 3%;
+	min-width: 14px;
+	max-width: 3%;
+}
+
+.column-thequote {
+	width: 33%;
+	min-width: 184px;
+	max-width: 34%;
+}
+
+.column-titlename {
+	width: 10%;
+	min-width: 48px;
+	max-width: 10%;
+}
+
+.column-firstname {
+	width: 10%;
+	min-width: 48px;
+	max-width: 10%;
+}
+
+.column-lastname {
+	width: 10%;
+	min-width: 48px;
+	max-width: 10%;
+}
+
+.column-source {
+	width: 17%;
+	min-width: 80px;
+	max-width: 17%;
+}
+
+.column-category {
+	width: 7%;
+	min-width: 45px;
+	max-width: 7%;
+}
+
+.column-img {
+	width: 7%;
+	min-width: 45px;
+	max-width: 7%;
+}
+
+.alternate img {
+	width: 100%;
+	height: 100%;
+	max-height: 150px;
+	max-width: 150px;
+}
+
+.quotes-llama-icons img {
+	width: 16px;
+	height: 16px;
+}
+
+.ql-category {
+	margin-top: 3px;
+	padding: 15px;
+	padding-right: 50px;
+	height: 100px;
+	width: 80%;
+	overflow: auto;
+	overflow-x: hidden;
+	display: block;
+	grid-template-columns: 1em auto;
+	gap: 1.0em;
+}
+
+.ql-manage-cat {
+	font-size: medium;
+	margin: 2px;
+}
+
+#ql-rename-cat-btn,
+#ql-delete-cat-btn {
+	margin-left: 5px;
+}
+
+#show_page_author,
+#show_page_source,
+#show_page_image,
+#show_gallery_author,
+#show_page_next,
+#show_gallery_source,
+#gallery_timer_show,
+#show_gallery_image,
+#border_radius,
+#image_at_top,
+#show_icons,
+#search_allow,
+#admin_reset,
+#export_delimiter,
+#http_display {
+	display: inline;
+}
+
+.quotes-llama-table-error {
+	width: auto;
+	background-color: red;
+	color: black;
+	padding: 10px;
+}

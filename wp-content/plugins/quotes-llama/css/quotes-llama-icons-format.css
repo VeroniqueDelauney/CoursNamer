@@ -1,0 +1,11 @@
+.quotes-llama-icons img {
+	all: unset;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 8px;
+	margin-bottom: 1px;
+	text-align: right;
+	float: none;
+}

@@ -1,0 +1,14 @@
+.quotes-llama-widget-random img,
+.quotes-llama-count-quote img,
+.quotes-llama-page-quotebox img,
+.quotes-llama-auto-quote img,
+.quotes-llama-all-quote img,
+.quotes-llama-gallery img {
+	float: none;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	max-height: 150px;
+	max-width: 150px;
+}

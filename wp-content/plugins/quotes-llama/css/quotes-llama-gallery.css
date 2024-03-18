@@ -1,0 +1,59 @@
+.quotes-llama-gallery {
+	position:relative;
+	top: 10px;
+	left: 0px;
+	width: 100%;
+	min-width: 280px;
+	height: 80%;
+	min-height: 420px;
+	display: block;
+	overflow: hidden;
+	padding: 5px;
+}
+
+.quotes-llama-gallery-quotebox {
+	position: absolute;
+	padding: 5px;
+	max-width: 60%;
+	cursor: pointer;
+}
+
+.quotes-llama-gallery img  {
+	max-width: 150px;
+	max-height: 150px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	box-shadow: 5px 10px 12px 0px rgba(0,0,0,0.75);
+	float: left;
+}
+
+.quotes-llama-gallery-author {
+	display: block;
+	text-align: right;
+	font-style: italic;
+}
+
+.quotes-llama-gallery-source {
+	font-size: small;
+	font-style: italic;
+}
+
+.quotes-llama-gallery-rotate {
+	position:absolute;
+	top: 10px;
+	left: 1%;
+	width: 95%;
+	min-width: 400px;
+	height: 40%;
+}
+
+.quotes-llama-gallery-countdown {
+	float: right;
+	top: 3px;
+	right: 5px;
+}
+
+.quotes-llama-gallery-reenable {
+	cursor: pointer;
+}

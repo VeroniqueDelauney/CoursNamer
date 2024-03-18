@@ -1,0 +1,82 @@
+/*
+Theme Name: Cours Namer
+Description: Thème enfant du site Cours Namer
+Author: Véronique DELAUNEY
+Template: astra
+Version: 1.0
+*/
+.topBanner {
+    height:40em!important;
+    position:relative!important;
+}
+
+.containerLines {
+    position:absolute!important;
+    bottom:0!important;
+}
+
+.ast-builder-menu-1 .menu-item>.menu-link {
+    color:white!important
+}
+
+.current-menu-item {
+    font-weight: bold;
+}
+
+.elementor-counter {
+    color:#FFF
+}
+
+.orangeBackground {
+    background-color: #E87700;
+}
+
+.questions {
+    text-align: left!important
+}
+
+.questions h3 {
+    color: #56AD40;
+    padding-top:1em;
+    font-size: 1.5em!important
+}
+
+.questions p {
+    border-left: 1px solid #000;
+    padding-left: 1.5em
+}
+
+ul.sub-menu, ul.sub-menu li {
+    background-color: #a972c6!important;
+    color: white;
+}
+
+ul.sub-menu li {
+    background-color: #a972c6!important;
+    border-top:1px solid white;
+}
+
+.ast-mobile-header-wrap .ast-primary-header-bar, .ast-primary-header-bar .site-primary-header-wrap {
+    min-height: 80px;
+    height: 8em;
+    /* visibility: hidden; */
+}
+
+
+.ast-article-single { 
+    
+}
+
+.ast-blog-layout-6-grid .ast-article-inner .post-thumb::after {
+    background: #eaeaea;
+    border-left:1px solid #a972c6;
+}
+
+.ast-blog-layout-6-grid .blog-layout-6 .ast-blog-single-element, .ast-blog-layout-6-grid .blog-layout-6 .ast-blog-single-element *, .ast-blog-layout-6-grid .blog-layout-6 .ast-blog-single-element *:hover {
+    color: #000;
+}
+/* 
+Bleu 2895CB
+Orange E87700
+Vert 56AD40
+/* Violet A972C6 */ 
