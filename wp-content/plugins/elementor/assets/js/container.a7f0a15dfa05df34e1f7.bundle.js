@@ -1,4 +1,4 @@
-/*! elementor - v3.19.0 - 28-02-2024 */
+/*! elementor - v3.20.0 - 13-03-2024 */
 "use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["container"],{
 
@@ -231,7 +231,7 @@ class GridContainer extends elementorModules.frontend.handlers.Base {
    */
   getResponsiveControlNames(propsThatTriggerGridLayoutRender) {
     const activeBreakpoints = elementorFrontend.breakpoints.getActiveBreakpointsList();
-    let responsiveControlNames = [];
+    const responsiveControlNames = [];
     for (const prop of propsThatTriggerGridLayoutRender) {
       for (const breakpoint of activeBreakpoints) {
         responsiveControlNames.push(`${prop}_${breakpoint}`);
@@ -500,4 +500,4 @@ exports["default"] = Shapes;
 /***/ })
 
 }]);
-//# sourceMappingURL=container.af34d8c7325197c9feb9.bundle.js.map
+//# sourceMappingURL=container.a7f0a15dfa05df34e1f7.bundle.js.map

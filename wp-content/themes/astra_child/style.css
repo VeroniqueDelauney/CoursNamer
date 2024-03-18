@@ -62,9 +62,24 @@ ul.sub-menu li {
     /* visibility: hidden; */
 }
 
+.studentsList img {
+    max-height:194px
+}
 
-.ast-article-single { 
-    
+.studentsList a {
+    pointer-events: none;
+}
+
+abbr[title], .studentsList .published {
+    border-bottom: none;
+    text-decoration: none;
+    font-style: normal;
+} 
+
+.lae-gapless-grid .lae-grid-container.lae-grid-desktop-3 .lae-grid-item {
+    width: 33%!important;
+    float: left;
+    margin-left: 0px;
 }
 
 .ast-blog-layout-6-grid .ast-article-inner .post-thumb::after {
@@ -74,6 +89,10 @@ ul.sub-menu li {
 
 .ast-blog-layout-6-grid .blog-layout-6 .ast-blog-single-element, .ast-blog-layout-6-grid .blog-layout-6 .ast-blog-single-element *, .ast-blog-layout-6-grid .blog-layout-6 .ast-blog-single-element *:hover {
     color: #000;
+}
+
+.lightBackground {
+    background-color: #eaeaea;
 }
 /* 
 Bleu 2895CB

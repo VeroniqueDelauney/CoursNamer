@@ -1,4 +1,4 @@
-/*! elementor - v3.19.0 - 28-02-2024 */
+/*! elementor - v3.20.0 - 13-03-2024 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["kit-library"],{
 
 /***/ "../app/modules/kit-library/assets/js/components/badge.scss":
@@ -3966,7 +3966,6 @@ var _collapse = _interopRequireDefault(__webpack_require__(/*! ../../components/
 var _contentType = _interopRequireDefault(__webpack_require__(/*! ../../models/content-type */ "../app/modules/kit-library/assets/js/models/content-type.js"));
 var _favoritesActions = _interopRequireDefault(__webpack_require__(/*! ../../components/favorites-actions */ "../app/modules/kit-library/assets/js/components/favorites-actions.js"));
 var _kit = _interopRequireDefault(__webpack_require__(/*! ../../models/kit */ "../app/modules/kit-library/assets/js/models/kit.js"));
-var _overviewTaxonomyBadge = _interopRequireDefault(__webpack_require__(/*! ./overview-taxonomy-badge */ "../app/modules/kit-library/assets/js/pages/overview/overview-taxonomy-badge.js"));
 var _appUi = __webpack_require__(/*! @elementor/app-ui */ "@elementor/app-ui");
 var _appsEventTracking = __webpack_require__(/*! elementor-app/event-track/apps-event-tracking */ "../app/assets/js/event-track/apps-event-tracking.js");
 __webpack_require__(/*! ./overview-sidebar.scss */ "../app/modules/kit-library/assets/js/pages/overview/overview-sidebar.scss");
@@ -4036,58 +4035,6 @@ OverviewSidebar.propTypes = {
   model: PropTypes.instanceOf(_kit.default).isRequired,
   index: PropTypes.number,
   groupedKitContent: PropTypes.arrayOf(PropTypes.instanceOf(_contentType.default))
-};
-
-/***/ }),
-
-/***/ "../app/modules/kit-library/assets/js/pages/overview/overview-taxonomy-badge.js":
-/*!**************************************************************************************!*\
-  !*** ../app/modules/kit-library/assets/js/pages/overview/overview-taxonomy-badge.js ***!
-  \**************************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-"use strict";
-/* provided dependency */ var PropTypes = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "../node_modules/@babel/runtime/helpers/typeof.js");
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-exports["default"] = OverviewTaxonomyBadge;
-var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "react"));
-var _badge = _interopRequireDefault(__webpack_require__(/*! ../../components/badge */ "../app/modules/kit-library/assets/js/components/badge.js"));
-var _useTaxonomies2 = _interopRequireDefault(__webpack_require__(/*! ../../hooks/use-taxonomies */ "../app/modules/kit-library/assets/js/hooks/use-taxonomies.js"));
-var _router = __webpack_require__(/*! @reach/router */ "../node_modules/@reach/router/es/index.js");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-function OverviewTaxonomyBadge(props) {
-  var _useTaxonomies = (0, _useTaxonomies2.default)(),
-    data = _useTaxonomies.data;
-  var taxonomyText = props.children;
-  var type = (0, _react.useMemo)(function () {
-    var _data$find;
-    if (!data) {
-      return null;
-    }
-    return (_data$find = data.find(function (item) {
-      return item.text === taxonomyText;
-    })) === null || _data$find === void 0 ? void 0 : _data$find.type;
-  }, [data, taxonomyText]);
-  if (!type) {
-    return '';
-  }
-  return /*#__PURE__*/_react.default.createElement(_router.Link, {
-    onClick: function onClick() {
-      props === null || props === void 0 ? void 0 : props.onClick(taxonomyText);
-    },
-    to: "/kit-library?taxonomies[".concat(type, "][]=").concat(taxonomyText)
-  }, /*#__PURE__*/_react.default.createElement(_badge.default, null, props.children));
-}
-OverviewTaxonomyBadge.propTypes = {
-  children: PropTypes.string,
-  onClick: PropTypes.func
 };
 
 /***/ }),
@@ -4585,4 +4532,4 @@ exports.isTierAtLeast = isTierAtLeast;
 /***/ })
 
 }]);
-//# sourceMappingURL=kit-library.f07b34b5f8e5950b1f5f.bundle.js.map
+//# sourceMappingURL=kit-library.ac1a4cd5deae5526ce49.bundle.js.map
